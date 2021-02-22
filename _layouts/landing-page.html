@@ -14,6 +14,15 @@ layout: default
 		<div class="pure-u-1">
 			<div class="content content-narrow">
 				{{ content }}
+				{% for block in page.page_sections %}
+				{% assign template = block.template %}
+				{% case template %}
+				{% when 'highlights' %}
+				{% include blocks_{{template}}.html %}
+				{% when 'textarea' %}
+				{% include blocks_{{template}}.html %}
+				{% endcase %}
+				{% endfor %}
 			</div>
 		</div>
 	</div>

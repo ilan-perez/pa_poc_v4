@@ -1,11 +1,11 @@
 ---
-label: Pages
+label: Page
 hide_body: false
 fields:
 - name: title
   type: text
   config:
-    required: false
+    required: true
   label: Title
 - name: description
   type: textarea
@@ -16,13 +16,12 @@ fields:
     schema:
       format: markdown
   label: Description
-- name: page_section
+- name: page_sections
   type: blocks
-  label: Page Section
+  label: Page Sections
   template_types:
   - highlights
+  - textarea
   config:
     min: 
     max: 
-pages:
-- test-page.md
