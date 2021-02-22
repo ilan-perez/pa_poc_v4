@@ -25,7 +25,7 @@ page_section:
   title: Enterprise
   description: dfgdfg sdf dsffdsf
   url: http://www.google.com
-description: ''
+description: blah blah blah
 published: false
 
 ---
