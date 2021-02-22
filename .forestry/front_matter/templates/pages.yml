@@ -1,4 +1,26 @@
 ---
 label: Pages
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+- name: page_section
+  type: blocks
+  label: Page Section
+  template_types:
+  - highlights
+  config:
+    min: 
+    max: 
