@@ -12,6 +12,12 @@ services: []
 show_news: false
 partners: []
 show_staff: false
+page_section:
+- template: highlights
+  title: Free
+  description: a b c
+  url: http://www.google.com
+description: ''
 published: false
 
 ---
