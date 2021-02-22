@@ -16,16 +16,7 @@ fields:
     schema:
       format: markdown
   label: Description
-- name: page_sections
-  type: blocks
-  label: Page Sections
-  template_types:
-  - highlights
-  - textarea
-  config:
-    min: 
-    max: 
- type: text
+  type: text
   label: Hero Heading
   name: heading
   default: Belkirk College
@@ -49,3 +40,13 @@ fields:
   - type: text
     name: href
     label: Link
+- name: page_sections
+  type: blocks
+  label: Page Sections
+  template_types:
+  - highlights
+  - textarea
+  config:
+    min: 
+    max: 
+
