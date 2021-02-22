@@ -17,6 +17,10 @@ page_section:
   title: Free
   description: a b c
   url: http://www.google.com
+- template: highlights
+  title: Pro
+  description: saadasd
+  url: http://www.google.com
 description: ''
 published: false
 
