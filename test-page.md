@@ -21,6 +21,10 @@ page_section:
   title: Pro
   description: saadasd
   url: http://www.google.com
+- template: highlights
+  title: Enterprise
+  description: dfgdfg sdf dsffdsf
+  url: http://www.google.com
 description: ''
 published: false
 
