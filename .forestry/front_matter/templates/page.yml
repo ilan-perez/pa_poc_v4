@@ -7,19 +7,15 @@ fields:
   config:
     required: true
   label: Title
-- name: description
-  type: textarea
-  default: ''
+- name: heading
+  type: text
+  default: Belkirk College
   config:
     required: false
     wysiwyg: false
     schema:
       format: markdown
-  label: Description
-  type: text
   label: Hero Heading
-  name: heading
-  default: Belkirk College
 - type: text
   name: sub_heading
   label: Hero Sub heading
@@ -49,4 +45,3 @@ fields:
   config:
     min: 
     max: 
-
