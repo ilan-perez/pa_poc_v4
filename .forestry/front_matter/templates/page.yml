@@ -42,6 +42,7 @@ fields:
   template_types:
   - highlights
   - textarea
+  - hubspot-form
   config:
     min: 
     max: 
