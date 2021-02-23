@@ -58,7 +58,7 @@ page_sections:
     highlight_image: "/uploads/2021/02/22/logic.jpg"
     tag: FORMULATE
 - template: double-cta-button
-  double-cta-button:
+  double-cta-button: 
   left_button: Get Started
   right_button: Learn More
 - template: textarea
@@ -66,8 +66,9 @@ page_sections:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
 
     Donec ne**c justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.**
+- template: double-cta-button
 - template: posts
-  posts:
+  posts: 
   layout: post
 description: blah blah blah
 publish_date: '2017-12-01T04:00:00.000+00:00'
