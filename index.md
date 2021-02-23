@@ -1,6 +1,6 @@
 ---
 title: Home
-banner_image: "/img/banner.png"
+banner_image: "/img/capaign_trusted_analytics_hero_6_1920x350.jpg"
 layout: landing-page
 heading: Belkirk College
 partners:
