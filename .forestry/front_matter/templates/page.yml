@@ -43,6 +43,7 @@ fields:
   - highlights
   - textarea
   - hubspot-form
+  - posts
   config:
     min: 
     max: 
