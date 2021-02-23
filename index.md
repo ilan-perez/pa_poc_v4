@@ -34,3 +34,25 @@ show_staff: false
 Pyramid adapts to users' needs. It provides different capabilities and experiences based on individual needs and skills, all while managing content as a shared resource. It is designed to support your organization's entire decision workflow.
 
 ![Enterprise Trusted Analytics Platform](https://www.pyramidanalytics.com/images/default-source/default-album/main_platform.png?sfvrsn=6f97f9c9_0 "Enterprise Trusted Analytics Platform")
+
+## AI is woven into the fiber of the Pyramid platform
+
+Data scientists typically use standalone software tools to conduct advanced analysis. With Pyramid, they can apply machine learning techniques to their data using the same platform as other analysts and professionals within the organization. When everyone is working in a shared analytic environment, there’s more opportunity for collaboration—and insight—across the organization.
+
+![Equation](https://www.pyramidanalytics.com/images/default-source/pyramid-2020/equation.png?sfvrsn=f0ecfbc9_0 "Equation")
+
+### Analytics & BI Platform
+
+Fully featured analytics and reporting platform that leverages all your investments.
+
+\+
+
+### Analytics & Machine Learning
+
+Hardened ML framework for today’s challenges.
+
+=
+
+### Pyramid Analytics
+
+Universal platform for tomorrow’s analytic needs.
