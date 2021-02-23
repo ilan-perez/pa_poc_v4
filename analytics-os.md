@@ -2,7 +2,7 @@
 heading: The Analytics OS
 sub_heading: One analytics solution for everyone
 layout: page
-title: Test Page
+title: The Analytics OS
 banner_image: "/uploads/2021/02/22/aos-header60139a4e7dd26215b1eeff00002b9892.jpg"
 hero_button:
   text: Read More
