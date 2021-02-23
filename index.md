@@ -25,7 +25,12 @@ textline: |
 hero_button:
   text: Learn more
   href: "/about"
-show_news: true
+show_news: false
 show_staff: false
 
 ---
+## The analytics platform for data-driven people and products
+
+Pyramid adapts to users' needs. It provides different capabilities and experiences based on individual needs and skills, all while managing content as a shared resource. It is designed to support your organization's entire decision workflow.
+
+![Enterprise Trusted Analytics Platform](https://www.pyramidanalytics.com/images/default-source/default-album/main_platform.png?sfvrsn=6f97f9c9_0 "Enterprise Trusted Analytics Platform")
