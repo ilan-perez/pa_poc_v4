@@ -20,6 +20,10 @@ layout: default
             {% include blocks_{{template}}.html %}
             {% when 'hubspot-form' %}
             {% include blocks_{{template}}.html %}
+            {% when 'posts' %}
+            {% include {{template}}.html %}
+            {% when 'double-cta-button' %}
+            {% include blocks_{{template}}.html %}
             {% endcase %}
             {% endfor %}
         </div>
