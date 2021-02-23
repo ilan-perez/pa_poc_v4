@@ -1,4 +1,14 @@
 ---
 label: Double CTA Button
 hide_body: true
-fields: []
+fields:
+- name: left_button
+  type: text
+  config:
+    required: false
+  label: Left Button
+- name: right_button
+  type: text
+  config:
+    required: false
+  label: Right Button
