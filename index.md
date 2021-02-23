@@ -2,7 +2,7 @@
 title: Home
 banner_image: "/img/capaign_trusted_analytics_hero_6_1920x350.jpg"
 layout: landing-page
-heading: Belkirk College
+heading: Empowering People with Trusted Analytics
 partners:
 - "/uploads/2017/11/13/stem.png"
 - "/uploads/2017/11/13/UPenn_logo.png"
@@ -16,7 +16,8 @@ services:
     the biotechnology sector.
   heading: BioTech
   icon: "/uploads/2017/11/13/biotech.png"
-sub_heading: Engineering and Health Sciences
+sub_heading: Pyramid is the Trusted Analytics Platform™ that connects your teams,
+  drives confident decisions, and produces winning results.
 textline: |
   Belkirk College of Engineering
 
@@ -25,5 +26,6 @@ hero_button:
   text: Learn more
   href: "/about"
 show_news: true
+show_staff: false
 
 ---
