@@ -18,6 +18,8 @@ layout: default
             {% include blocks_{{template}}.html %}
             {% when 'textarea' %}
             {% include blocks_{{template}}.html %}
+            {% when 'hubspot-form' %}
+            {% include blocks_{{template}}.html %}
             {% endcase %}
             {% endfor %}
         </div>
