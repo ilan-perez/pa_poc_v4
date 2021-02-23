@@ -1,4 +1,14 @@
 ---
 label: Hubspot Form
 hide_body: true
-fields: []
+fields:
+- name: portalId
+  type: text
+  config:
+    required: false
+  label: Portal Id
+- name: formId
+  type: text
+  config:
+    required: false
+  label: FormId
