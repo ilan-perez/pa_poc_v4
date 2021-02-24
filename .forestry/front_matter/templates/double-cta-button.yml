@@ -7,8 +7,18 @@ fields:
   config:
     required: false
   label: Left Button
+- name: left_url
+  type: text
+  config:
+    required: false
+  label: Left Url
 - name: right_button
   type: text
   config:
     required: false
   label: Right Button
+- name: right_url
+  type: text
+  config:
+    required: false
+  label: Right Url
