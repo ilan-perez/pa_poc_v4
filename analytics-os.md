@@ -65,6 +65,12 @@ page_sections:
 - template: posts
   posts: 
   layout: post
+- template: double-cta-button
+  d_cta:
+  - left_button_label: Learn More
+    left_button_url: "/"
+    right_button_label: Free Trial
+    right_button_url: "/free-trial"
 description: blah blah blah
 publish_date: '2017-12-01T04:00:00.000+00:00'
 menu:
