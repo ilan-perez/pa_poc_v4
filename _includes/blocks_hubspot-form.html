@@ -1,20 +1,17 @@
-<pre>
-{{ block | inspect}}
-</pre>
 <div class="pure-g">
-        <div class="pure-u-1">
-            <!--[if lte IE 8]>
-    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
-    <![endif]-->
-            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
-            <script>
-                hbspt.forms.create({
-                    portalId: "5413265",
-                    formId: "c0177bac-a0ae-4782-8ca8-3a88f22ee568"
-                });
-            </script>
 
-        </div>
-        
+    <div class="pure-u-1">
+        <!--[if lte IE 8]>
+        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+        <![endif]-->
+        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+        <script>
+            hbspt.forms.create({
+                portalId: "{{ block.portalId }}",
+                formId: "{{ block.formId }}"
+            });
+        </script>
     </div>
+</div>
+
 
