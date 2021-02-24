@@ -57,6 +57,12 @@ page_sections:
     url: "/"
     highlight_image: "/uploads/2021/02/22/logic.jpg"
     tag: FORMULATE
+- template: double-cta-button
+  d_cta:
+  - left_button_label: Read More
+    left_button_url: "/contact"
+    right_button_label: Learn More
+    right_button_url: "/bi-blog"
 - template: textarea
   textarea: |-
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
