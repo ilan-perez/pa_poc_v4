@@ -69,6 +69,7 @@ page_sections:
 
     Donec ne**c justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.**
 - template: double-cta-button
+  double-cta-button:
   left_button: Learn More
   left_url: "/about"
   right_button: Free Trial
