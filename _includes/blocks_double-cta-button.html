@@ -1,9 +1,14 @@
+<pre>
+{{ block | inspect}}
+</pre>
+{% for dCTA in block.double-cta-button %}
 <div class="pure-g">
     <div class="pure-u-1-3">
     </div>
     <div class="pure-u-1-3" style="text-align:center;">
-        <a href="#" class="pure-button button-warning">Left</a><a href="#" class="pure-button button-secondary">Right</a>
+        <a href="#" class="pure-button button-warning">{{dCTA.left_button}}</a><a href="#" class="pure-button button-secondary">{{dCTA.right_button}}</a>
     </div>
     <div class="pure-u-1-3">
     </div>
 </div>
+ {% endfor %}
