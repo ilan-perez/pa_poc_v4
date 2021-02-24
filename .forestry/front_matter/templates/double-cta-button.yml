@@ -2,23 +2,31 @@
 label: Double CTA Button
 hide_body: true
 fields:
-- name: left_button
-  type: text
+- name: d_cta
+  type: field_group_list
+  fields:
+  - name: left_button_label
+    type: text
+    config:
+      required: false
+    label: Left Button Label
+  - name: left_button_url
+    type: text
+    config:
+      required: false
+    label: Left Button Url
+  - name: right_button_label
+    type: text
+    config:
+      required: false
+    label: Right Button Label
+  - name: right_button_url
+    type: text
+    config:
+      required: false
+    label: Right Button Url
   config:
-    required: false
-  label: Left Button
-- name: left_url
-  type: text
-  config:
-    required: false
-  label: Left Url
-- name: right_button
-  type: text
-  config:
-    required: false
-  label: Right Button
-- name: right_url
-  type: text
-  config:
-    required: false
-  label: Right Url
+    min: 
+    max: 
+    labelField: 
+  label: Double CTA
