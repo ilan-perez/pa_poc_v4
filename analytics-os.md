@@ -77,6 +77,10 @@ page_sections:
     left_button_url: "/"
     right_button_label: Free Trial
     right_button_url: "/free-trial"
+- template: 3-column-layout
+  column_1: a
+  column_2: b
+  column_3: c
 description: blah blah blah
 publish_date: '2017-12-01T04:00:00.000+00:00'
 menu:
