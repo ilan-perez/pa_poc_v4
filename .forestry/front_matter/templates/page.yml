@@ -40,11 +40,12 @@ fields:
   type: blocks
   label: Page Sections
   template_types:
-  - highlights
   - textarea
+  - 2-column-layout
+  - 3-column-layout
+  - highlights
   - hubspot-form
   - double-cta-button
-  - posts
   config:
     min: 
     max: 
