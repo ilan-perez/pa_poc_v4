@@ -29,6 +29,10 @@ collections:
 jekyll-archives:
   enabled: all
   layout: "archive"
+algolia:
+    application_id: 'NMCUGOB9S8'
+    index_name: 'dev_poc'
+    search_only_api_key: 'b25727fcc065533824de558e83619278'
 plugins:
   - jekyll-menus
   - jekyll-feed

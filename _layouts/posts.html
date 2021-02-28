@@ -7,22 +7,32 @@ layout: default
 {% endcomment %}
 
 {% include breadcrumbs.html class="" %}
-
-{% for post in site.posts %}
-{% if post.path contains 'bi-blog' %}
-
 <div class="container pure-g">
     <div class="pure-u-1">
-        <div class="content ">
-            <div class="list-layout">
-                <h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
-                <div>{{ post.content | truncatewords: 30 }}</div>
-                <date>{{ post.date | date_to_string }}</date>
-            </div>
-        </div>
+        <div id="search-searchbar"></div>
     </div>
 </div>
-</div>
+        {% for post in site.posts %}
 
-  {% endif %}
-{% endfor %}
+        {% if post.path contains 'bi-blog' %}
+        <div class="post-list" id="search-hits">
+            <div class="container pure-g">
+                <div class="pure-u-1">
+                    <div class="content ">
+                        <div class="list-layout">
+                            <div class="post-item">
+                                <h2><a class="post-link" href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+                                <div  class="post-snippet">{{ post.content | truncatewords: 30 }}</div>
+                                <date class="post-meta">{{ post.date | date_to_string }}</date>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        {% endif %}
+        {% endfor %}
+        {% include algolia.html %}
+
+        <p class="rss-subscribe">subscribe <a href="{{ '/feed.xml' | relative_url }}">via RSS</a></p>
