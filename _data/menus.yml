@@ -1,1 +1,6 @@
---- {}
+---
+navigation:
+- url: google.com
+  weight: 1
+  parent: _posts
+  title: Test
