@@ -10,4 +10,4 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
-  label: Textarea
+  label: 1 Column Layout
