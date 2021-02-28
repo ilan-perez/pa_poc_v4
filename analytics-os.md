@@ -81,6 +81,9 @@ page_sections:
   column_1: a
   column_2: b
   column_3: c
+- template: 2-column-layout
+  column_1: a
+  column_2: b
 description: blah blah blah
 publish_date: '2017-12-01T04:00:00.000+00:00'
 menu:
