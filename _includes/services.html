@@ -3,10 +3,10 @@
 {% endcomment %}
 
 {% if page.services %}
-<section class="services">
-    <div class="container pure-g">
+<section class="container services">
+    <div class="row">
         {% for item in page.services %}
-        <div class="pure-u-1 pure-u-md-1-{{ forloop.length }}">
+        <div class="col-{{ forloop.length }}">
               <div class="service">
                   <div class="service-icon"><img src="{{ item.icon | absolute_url }}" alt=""></div>
                   <h2>{{ item.heading }}</h2>
