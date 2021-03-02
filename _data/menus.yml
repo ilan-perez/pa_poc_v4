@@ -1,6 +1,6 @@
 ---
 navigation:
-- url: google.com
+- url: https://google.com
   weight: 1
   parent: _posts
   title: Test

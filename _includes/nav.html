@@ -5,47 +5,79 @@
 {% assign url = page.url | remove:'index.html' %}
 
 <header class="site-header">
-    <div class="container">
-        <h1 class="logo">
-            <a href="{{ "/" | absolute_url }}">{{ site.name }}</a>
-        </h1>
-        <nav class="main-nav">
-            <ul class="navigation">
-                {% for link in site.menus.navigation %}
-                <li class="{% if link.children %}nested {% endif %}{% if url == link.url %}current{% endif %}">
-                    {% if link.children %}
-                    <ul class="first-level">
-                        {% for child in link.children %}
-                        <li>
-                            {% if child.children %}
-                            <ul class="second-level">
-                                {% for child in child.children %}
+       <div id="app" class="container">
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <a class="navbar-brand" href="{{ "/" | absolute_url }}">{{ site.name }}</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        &nbsp;
+                    </li>
+
+                </ul>
+
+                <ul class="navbar-nav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        {% for link in site.menus.navigation %}
+                        <li class="nav-item {% if link.children %}nested {% endif %}{% if url == link.url %}active{% endif %}  {% if link.children %}dropdown{% endif %}">
+                            {% if link.children %}
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                {{ link.title }}
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                {% for child in link.children %}
                                 <li>
-                                    <a href="{{ child.url | absolute_url }}">{{ child.title }}</a>
+                                    {% if child.children %}
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        {{ child.title }}
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        {% for child in child.children %}
+                                        <li>
+                                            <a class="dropdown-item" href="{{ child.url | absolute_url }}">{{ child.title }}</a>
+                                        </li>
+                                        {% endfor %}
+                                    </ul>
+                                    {% endif %}
+                                    <a class="dropdown-item" href="{{ child.url | absolute_url }}" {% if child.target %} target="_blank" {% endif %}>
+                                        {{ child.title }}
+                                        {% if child.childen %}
+                                        <i class='icon-right-dir-2'></i>
+                                        {% endif %}
+                                    </a>
                                 </li>
                                 {% endfor %}
                             </ul>
                             {% endif %}
-                            <a href="{{ child.url | absolute_url }}" {% if child.target %} target="_blank" {% endif %}>
-                                {{ child.title }}
-                                {% if child.childen %}
-                                <i class='icon-right-dir-2'></i>
+                            <a class="nav-link" href="{{ link.url | absolute_url }}" {% if link.target %} target="_blank" {% endif %}>
+                                {{ link.title }}
+                                {% if link.childen %}
+                                <i class='icon-chevron-down'></i>
                                 {% endif %}
                             </a>
                         </li>
                         {% endfor %}
+
+
+
                     </ul>
-                    {% endif %}
-                    <a href="{{ link.url | absolute_url }}" {% if link.target %} target="_blank" {% endif %}>
-                        {{ link.title }}
-                        {% if link.childen %}
-                        <i class='icon-chevron-down'></i>
-                        {% endif %}
-                    </a>
-                </li>
-                {% endfor %}
-            </ul>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
         </nav>
     </div>
+
+    {{ site.data.menus.main | inspect }}
+
+
+
 </header>
 
