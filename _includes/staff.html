@@ -9,37 +9,39 @@
 
             <h2 class="section-heading">Pyramid Staff</h2>
         </div>
-        <div class="row">
-    
-                {% assign people = site.people %}
-                {% for person in people %}
-                <div class="col-2">
-                    <div class="post">
-                        <div class="post-header">
-                            {% if person.thumbnail %}
-                            <img alt="{{ person.title }}" src="{{ person.thumbnail | absolute_url }}">
-                            {% else %}
-                            <img alt="{{ person.title }}" src="{{ "/img/placeholder.png" | absolute_url }}>
-                            {% endif %}
-                        </div>
-                        <div class="post-body">
-                            <h3>
-                                <a href="{{ person.url | absolute_url }}">{{ person.title }}</a>
-                            </h3>
-                            {% if person.sub_heading `
-                            <div class="subtitle">
-                                {{ person.sub_heading }}
-                            </div>{% endif %}
-                            <p>
-                                {{ person.content | truncatewords: 25, "...<br><br>Continue reading →" }}
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                {% endfor %}
-          
-
-        </div>
     </div>
+    <div class="row">
+
+        {% assign people = site.people %}
+        {% for person in people %}
+        <div class="col-2">
+            <div class="post">
+                <div class="post-header">
+                    {% if person.thumbnail %}
+                    <img alt="{{ person.title }}" src="{{ person.thumbnail | absolute_url }}">
+                    {% else %}
+                    <img alt="{{ person.title }}" src="{{ "/img/placeholder.png" | absolute_url }}>
+                    {% endif %}
+                </div>
+                <div class="post-body">
+                    <h3>
+                        <a href="{{ person.url | absolute_url }}">{{ person.title }}</a>
+                    </h3>
+                    {% if person.sub_heading %}
+                    <div class="subtitle">
+                        {{ person.sub_heading }}
+                    </div>
+                    {% endif %}
+                    <p>
+                        {{ person.content | truncatewords: 25, "...<br><br>Continue reading →" }}
+                    </p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+
+
+    </div>
+
 </section>
 {% endif %}

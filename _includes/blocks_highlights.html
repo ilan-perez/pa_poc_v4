@@ -1,21 +1,45 @@
-  
+  {% assign  _count = 0 %}
 {% for highlight in block.highlights %}
-<div class="pure-g">
-    <div class="pure-u-1">
-    <hr />
-        </div>
+{% assign _count = {{ forloop.length }} %}
+<div class="row">
+    <div class="col">
+        <div class="col">{{ _count }}</div>
     </div>
-    <div class="pure-g">
-        <div class="pure-u-1-2">
-            <div class="tagline">{{highlight.tag}}</div>
-            <h4>{{highlight.title}}</h4>
-            {{ highlight.description | markdownify}}
-            {% if highlight.url %}
-            <a href="{{highlight.url}}" class="pure-button pure-button-primary">Click Here</a>
-            {% endif %}
-        </div>
-        <div class="pure-u-1-2">
-            <a href="{{highlight.url}}"><img src="{{highlight.highlight_image}}" /></a>
-        </div>
+</div>
+
+<div class="row">
+    <div class="col">
+        <hr />
     </div>
+</div>
+<div class="row">
+
+    {% if _count | modulo:2 %}
+    <div class="col-6">
+        <div class="tagline">{{highlight.tag}}</div>
+        <h4>{{highlight.title}}</h4>
+        {{ highlight.description | markdownify}}
+        {% if highlight.url %}
+        <a href="{{highlight.url}}" class="pure-button pure-button-primary">Click Here</a>
+        {% endif %}
+    </div>
+    <div class="col-6">
+        <a href="{{highlight.url}}"><img src="{{highlight.highlight_image}}" /></a>
+    </div>
+
+    {% else %}
+    <div class="col-6">
+        <div class="tagline">{{highlight.tag}}</div>
+        <h4>{{highlight.title}}</h4>
+        {{ highlight.description | markdownify}}
+        {% if highlight.url %}
+        <a href="{{highlight.url}}" class="pure-button pure-button-primary">Click Here</a>
+        {% endif %}
+    </div>
+    <div class="col-6">
+        <a href="{{highlight.url}}"><img src="{{highlight.highlight_image}}" /></a>
+    </div>
+    {% endif %}
+
+</div>
     {% endfor %}

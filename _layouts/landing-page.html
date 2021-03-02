@@ -9,25 +9,25 @@ layout: default
 
 {% assign stripped_content = content | strip_newlines %}
 {% if content and stripped_content != "" %}
-	<div class="container">
-		<div class="row">
-			<div class="col ">
-				
-				{{ content }}
-				{% for block in page.page_sections %}
-				{% assign template = block.template %}
-				{% case template %}
-				{% when 'highlights' %}
-				{% include blocks_{{template}}.html %}
-				{% when 'textarea' %}
-				{% include blocks_{{template}}.html %}
-				{% when 'hubspot-form' %}
-				{% include blocks_{{template}}.html %}
-				{% endcase %}
-				{% endfor %}
-			</div>
+<div class="container">
+	<div class="row">
+		<div class="col ">
+
+			{{ content }}
+			{% for block in page.page_sections %}
+			{% assign template = block.template %}
+			{% case template %}
+			{% when 'highlights' %}
+			{% include blocks_{{template}}.html %}
+			{% when 'textarea' %}
+			{% include blocks_{{template}}.html %}
+			{% when 'hubspot-form' %}
+			{% include blocks_{{template}}.html %}
+			{% endcase %}
+			{% endfor %}
 		</div>
 	</div>
+</div>
 
 {% endif %}
 
