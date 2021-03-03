@@ -16,6 +16,8 @@ layout: default
             {% case template %}
             {% when 'highlights' %}
             {% include blocks_{{template}}.html %}
+            {% include blocks_{{template}}.html %}
+            {% when 'footer-cta' %}
             {% when 'textarea' %}
             {% include blocks_{{template}}.html %}
             {% when 'hubspot-form' %}
