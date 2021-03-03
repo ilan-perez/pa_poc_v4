@@ -13,6 +13,17 @@ show_news: false
 partners: []
 show_staff: false
 page_sections:
+- template: textarea
+  textarea: |-
+    ## Balance user productivity and governance
+
+    The Analytics OS is an adaptive analytic platform that provides different capabilities and experiences based on user needs and skills, all while managing content as a shared resource. It provides organizations with one analytics solution for everyone, across all user types and skill levels. With the Analytics OS, data leaders can create a universal analytics environment that finally solves _today’s_ analytic needs and prepares the organization for _tomorrow’s_ data and technology challenges.
+
+    ![Enterprise Trusted Analytics Platform](https://www.pyramidanalytics.com/images/default-source/default-album/main_platform.png?sfvrsn=6f97f9c9_0 "Enterprise Trusted Analytics Platform")
+
+    **Pyramid is the Analytics OS.** It is an agnostic analytics platform that can be deployed in any environment and runs on any device. It features six distinct analytics modules (Model, Formulate, Discover, Illustrate, Present, and Publish)—plus an Administrative Console and Content Management System—to deliver a truly universal analytics experience.
+
+    The latest version of Pyramid is now available! Pyramid v2020 brings more people under the analytics tent than ever be
 - template: highlights
   highlights:
   - headline: Prepare data, deploy machine learning, and build data models
@@ -63,14 +74,14 @@ page_sections:
     left_button_url: "/contact"
     right_button_label: Learn More
     right_button_url: "/bi-blog"
+- template: posts
+  posts: 
+  layout: post
 - template: textarea
   textarea: |-
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
 
     Donec ne**c justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.**
-- template: posts
-  posts: 
-  layout: post
 - template: double-cta-button
   d_cta:
   - left_button_label: Learn More
@@ -84,6 +95,7 @@ page_sections:
 - template: 2-column-layout
   column_1: a
   column_2: b
+- template: hubspot-form
 description: blah blah blah
 publish_date: '2017-12-01T04:00:00.000+00:00'
 menu:
@@ -92,12 +104,3 @@ menu:
     title: Pyramid
 
 ---
-## Balance user productivity and governance
-
-The Analytics OS is an adaptive analytic platform that provides different capabilities and experiences based on user needs and skills, all while managing content as a shared resource. It provides organizations with one analytics solution for everyone, across all user types and skill levels. With the Analytics OS, data leaders can create a universal analytics environment that finally solves _today’s_ analytic needs and prepares the organization for _tomorrow’s_ data and technology challenges.
-
-![Enterprise Trusted Analytics Platform](https://www.pyramidanalytics.com/images/default-source/default-album/main_platform.png?sfvrsn=6f97f9c9_0 "Enterprise Trusted Analytics Platform")
-
-**Pyramid is the Analytics OS.** It is an agnostic analytics platform that can be deployed in any environment and runs on any device. It features six distinct analytics modules (Model, Formulate, Discover, Illustrate, Present, and Publish)—plus an Administrative Console and Content Management System—to deliver a truly universal analytics experience.
-
-The latest version of Pyramid is now available! Pyramid v2020 brings more people under the analytics tent than ever before. Now your users can do more than they ever thought possible.
