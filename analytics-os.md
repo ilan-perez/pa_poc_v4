@@ -61,28 +61,12 @@ page_sections:
       * Powerful, push-button statistical analysis tools
       * Wizard-guided advanced analytics
     url: "/"
-- template: posts
-  posts: 
-  layout: post
-- template: textarea
-  textarea: |-
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
-
-    Donec ne**c justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.**
 - template: double-cta-button
   d_cta:
   - left_button_label: Learn More
     left_button_url: "/"
     right_button_label: Free Trial
     right_button_url: "/free-trial"
-- template: 3-column-layout
-  column_1: a
-  column_2: b
-  column_3: c
-- template: 2-column-layout
-  column_1: a
-  column_2: b
-- template: hubspot-form
 description: blah blah blah
 publish_date: '2017-12-01T04:00:00.000+00:00'
 menu:
