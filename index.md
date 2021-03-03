@@ -18,10 +18,7 @@ services:
   icon: "/uploads/2017/11/13/biotech.png"
 sub_heading: Pyramid is the Trusted Analytics Platform™ that connects your teams,
   drives confident decisions, and produces winning results.
-textline: |
-  Belkirk College of Engineering
-
-  Ora et Labora
+textline: ''
 hero_button:
   text: Learn more
   href: "/about"
