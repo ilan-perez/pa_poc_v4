@@ -40,7 +40,16 @@ page_sections:
     url: "/about"
     highlight_image: "/uploads/2021/02/22/model-image.jpg"
     tag: Model
-  - headline: Interact with models and make new discoveries
+- template: double-cta-button
+  d_cta:
+  - left_button_label: Read More
+    left_button_url: "/contact"
+    right_button_label: Learn More
+    right_button_url: "/bi-blog"
+- template: highlights
+  highlights:
+  - tag: Discover
+    headline: Interact with models and make new discoveries
     description: |-
       Pyramid gives IT professionals, BI power users, and data scientists the power to answer difficult analytic problems with a set of advanced yet easy to use tools.
 
@@ -51,29 +60,7 @@ page_sections:
       * Attractive [visualizations](https://www.pyramidanalytics.com/data-visualization-examples-in-pyramid)
       * Powerful, push-button statistical analysis tools
       * Wizard-guided advanced analytics
-    url: "/contact"
-    highlight_image: "/uploads/2021/02/22/disocver.jpg"
-    tag: Discover
-  - headline: Define business logic, calculations, KPIs, and scripts
-    description: |-
-      With Pyramid, users can formulate custom expressions, lists, KPIs, parameters, scripts, and custom columns using an intuitive drag and drop interface, and then share and manage these new building blocks for others to use in their own analyses.
-
-      **KEY FEATURES**
-
-      * Drag and drop creation of sets, calculations, and advanced parameters
-      * Secure, share, and reuse business logic
-      * Dynamic sets with branching logic
-      * Out-of-the-box aggregates, operators, and functions
-      * KPIs dynamically tied to data
     url: "/"
-    highlight_image: "/uploads/2021/02/22/logic.jpg"
-    tag: FORMULATE
-- template: double-cta-button
-  d_cta:
-  - left_button_label: Read More
-    left_button_url: "/contact"
-    right_button_label: Learn More
-    right_button_url: "/bi-blog"
 - template: posts
   posts: 
   layout: post
