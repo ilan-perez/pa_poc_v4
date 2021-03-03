@@ -46,7 +46,6 @@ fields:
   - highlights
   - hubspot-form
   - double-cta-button
-  - footer-cta
   config:
     min: 
     max: 
