@@ -73,6 +73,10 @@ fields:
   name: show_staff
   label: Show Staff?
   description: Enables a staff section that lists each person in the People collection
+- name: show_footer_cta
+  type: boolean
+  label: Show Footer CTA
+  default: true
 - name: layout
   label: Layout
   type: text
