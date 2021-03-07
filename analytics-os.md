@@ -25,6 +25,11 @@ page_sections:
 
     The latest version of Pyramid is now available! Pyramid v2020 brings more people under the analytics tent than ever be
 - template: double-cta-button
+  d_cta:
+  - left_button_url: "/"
+    right_button_label: Learn More
+    right_button_url: "/"
+    left_button_label: Overview Video
 - template: highlights
   highlights:
   - headline: Prepare data, deploy machine learning, and build data models
