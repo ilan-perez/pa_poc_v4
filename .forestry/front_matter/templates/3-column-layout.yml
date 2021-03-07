@@ -6,7 +6,7 @@ fields:
 - name: 3_col_block
   type: text
   config:
-    required: false
+    required: true
   label: Section Title
 - name: column_1
   type: textarea
