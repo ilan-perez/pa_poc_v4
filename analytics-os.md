@@ -61,6 +61,21 @@ page_sections:
       * Powerful, push-button statistical analysis tools
       * Wizard-guided advanced analytics
     url: "/"
+- template: highlights
+  highlights:
+  - tag: ILLUSTRATE
+    headline: Create data-driven graphics, text, and infographics
+    description: |-
+      Using the Illustrate module, users can create common visual BI building blocks to build libraries of data-driven illustrations, infographics, and dynamic text that can be shared and reused across presentations and publications.
+
+      **KEY FEATURES**
+
+      * Dynamic infographics
+      * Reusable, sharable content across presentations and publications
+      * Data-driven dynamic text
+      * Composite visualizations (layered SVG and raster images)
+      * Custom visual workflows to illustrate processes
+    highlight_image: "/uploads/2021/03/07/asset.jpg"
 description: blah blah blah
 publish_date: '2017-12-01T04:00:00.000+00:00'
 menu:
