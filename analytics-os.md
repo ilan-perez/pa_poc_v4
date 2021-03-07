@@ -91,6 +91,22 @@ page_sections:
       * Option to design mobile-specific layouts
       * Interactions and shared slicing across multiple queries and data sources
     highlight_image: "/uploads/2021/03/07/present.png"
+- template: highlights
+  highlights:
+  - tag: PUBLISH
+    headline: Build enterprise reports & craft compelling analytic narratives
+    description: |-
+      The [Publish module](https://www.pyramidanalytics.com/modern-enterprise-reporting) lets end-users design and craft engaging, dynamic multi-page / multi-query reports using the very same platform they use to prepare data models and conduct advanced analytics inquiries. Coupled with data driven scheduling and distribution, Publish is modern enterprise reporting.
+
+      **KEY FEATURES**
+
+      * Pixel-perfect report creation
+      * Industry-leading design control
+      * Master page support
+      * High capacity report bursting with scheduling control
+      * Dynamic reporting with secure access
+    highlight_image: "/uploads/2021/03/07/publish.jpg"
+    url: "/"
 description: blah blah blah
 publish_date: '2017-12-01T04:00:00.000+00:00'
 menu:
