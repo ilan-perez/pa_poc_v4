@@ -25,7 +25,20 @@ hero_button:
 show_news: true
 show_staff: true
 show_footer_cta: false
-page_sections: []
+page_sections:
+- template: 3-column-layout
+  column_1: |-
+    ### Analytics & BI Platform
+
+    Fully featured analytics and reporting platform that leverages all your investments.
+  column_2: |-
+    ### Analytics & Machine Learning
+
+    Hardened ML framework for today’s challenges.
+  column_3: |-
+    ### Pyramid Analytics
+
+    Universal platform for tomorrow’s analytic needs.
 
 ---
 ## The analytics platform for data-driven people and products
@@ -39,19 +52,3 @@ Pyramid adapts to users' needs. It provides different capabilities and experienc
 Data scientists typically use standalone software tools to conduct advanced analysis. With Pyramid, they can apply machine learning techniques to their data using the same platform as other analysts and professionals within the organization. When everyone is working in a shared analytic environment, there’s more opportunity for collaboration—and insight—across the organization.
 
 ![Equation](https://www.pyramidanalytics.com/images/default-source/pyramid-2020/equation.png?sfvrsn=f0ecfbc9_0 "Equation")
-
-### Analytics & BI Platform
-
-Fully featured analytics and reporting platform that leverages all your investments.
-
-\+
-
-### Analytics & Machine Learning
-
-Hardened ML framework for today’s challenges.
-
-=
-
-### Pyramid Analytics
-
-Universal platform for tomorrow’s analytic needs.
