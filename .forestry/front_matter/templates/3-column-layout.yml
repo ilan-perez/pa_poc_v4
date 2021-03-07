@@ -3,7 +3,7 @@ label: 3 Column Layout
 hide_body: true
 display_field: section_title
 fields:
-- name: section_title
+- name: 3_col_block
   type: text
   config:
     required: false
