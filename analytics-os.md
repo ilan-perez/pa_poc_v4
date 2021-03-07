@@ -76,6 +76,21 @@ page_sections:
       * Composite visualizations (layered SVG and raster images)
       * Custom visual workflows to illustrate processes
     highlight_image: "/uploads/2021/03/07/asset.jpg"
+- template: highlights
+  highlights:
+  - tag: PRESENT
+    headline: Design presentations and analytic applications with your discoveries
+    description: |-
+      Pyramid gives users tremendous power to create presentations from distinct data sources and guide others through a rich and highly interactive data-driven environment.
+
+      **KEY FEATURES**
+
+      * Robust design control
+      * Master page support
+      * Fully interactive visuals
+      * Option to design mobile-specific layouts
+      * Interactions and shared slicing across multiple queries and data sources
+    highlight_image: "/uploads/2021/03/07/present.png"
 description: blah blah blah
 publish_date: '2017-12-01T04:00:00.000+00:00'
 menu:
