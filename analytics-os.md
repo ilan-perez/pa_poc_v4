@@ -46,12 +46,6 @@ page_sections:
     url: "/about"
     highlight_image: "/uploads/2021/02/22/model-image.jpg"
     tag: Model
-- template: double-cta-button
-  d_cta:
-  - left_button_label: Read More
-    left_button_url: "/contact"
-    right_button_label: Learn More
-    right_button_url: "/bi-blog"
 - template: highlights
   highlights:
   - tag: Discover
@@ -67,12 +61,6 @@ page_sections:
       * Powerful, push-button statistical analysis tools
       * Wizard-guided advanced analytics
     url: "/"
-- template: double-cta-button
-  d_cta:
-  - left_button_label: Learn More
-    left_button_url: "/"
-    right_button_label: Free Trial
-    right_button_url: "/free-trial"
 description: blah blah blah
 publish_date: '2017-12-01T04:00:00.000+00:00'
 menu:
