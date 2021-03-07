@@ -1,0 +1,15 @@
+{% for dCTA in block.d_cta %}
+
+<div class="row">
+    <div class="col-sm-4">
+    </div>
+    <div class="col-sm-2" style="text-align:center;">
+        <a href="{{dCTA.left_button_url}}" class="btn btn-warning">{{dCTA.left_button_label}}</a>
+    </div>
+    <div class="col-sm-2" style="text-align:center;">
+       <a href="{{dCTA.right_button_url}}" class="btn btn-default">{{dCTA.right_button_label}}</a>
+    </div>
+    <div class="col-sm-4">
+    </div>
+</div>
+ {% endfor %} 

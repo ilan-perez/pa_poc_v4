@@ -3,13 +3,12 @@
     "",
     "\\.forestry",
     "\\.forestry\\front_matter",
-    "\\.forestry\\front_matter\\templates",
     "\\.forestry\\snippets",
     "\\_data",
     "\\_includes",
     "\\_layouts",
     "\\_posts"
   ],
-  "SelectedNode": "\\_layouts\\landing-page.html",
+  "SelectedNode": "\\_includes\\services.html",
   "PreviewInSolutionExplorer": false
 }
