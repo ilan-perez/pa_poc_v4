@@ -24,6 +24,8 @@ hero_button:
   href: "/about"
 show_news: true
 show_staff: true
+show_footer_cta: false
+page_sections: []
 
 ---
 ## The analytics platform for data-driven people and products
