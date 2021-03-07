@@ -24,6 +24,7 @@ page_sections:
     **Pyramid is the Analytics OS.** It is an agnostic analytics platform that can be deployed in any environment and runs on any device. It features six distinct analytics modules (Model, Formulate, Discover, Illustrate, Present, and Publish)—plus an Administrative Console and Content Management System—to deliver a truly universal analytics experience.
 
     The latest version of Pyramid is now available! Pyramid v2020 brings more people under the analytics tent than ever be
+- template: double-cta-button
 - template: highlights
   highlights:
   - headline: Prepare data, deploy machine learning, and build data models
@@ -67,14 +68,6 @@ page_sections:
     left_button_url: "/"
     right_button_label: Free Trial
     right_button_url: "/free-trial"
-- template: footer-cta
-  left_title: Talk to a Pyramid Analytics expert
-  left_sub_title: Learn if Pyramid is right for you
-  left_url: "/"
-  right_title: Introduction to Pyramid Analytics
-  right_sub_title: See Pyramid in action right now.
-  right_url: "/"
-  center_image: "/uploads/2021/03/03/watch-demo.jpg"
 description: blah blah blah
 publish_date: '2017-12-01T04:00:00.000+00:00'
 menu:
