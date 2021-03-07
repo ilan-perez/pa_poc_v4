@@ -1,5 +1,5 @@
 ---
-label: Textarea
+label: 1 Column Layout
 hide_body: true
 fields:
 - name: textarea
