@@ -39,6 +39,12 @@ page_sections:
     ### Pyramid Analytics
 
     Universal platform for tomorrow’s analytic needs.
+- template: double-cta-button
+  d_cta:
+  - left_button_label: Read More
+    left_button_url: "/"
+    right_button_url: "/free-trial"
+    right_button_label: Free Trial
 
 ---
 ## The analytics platform for data-driven people and products
