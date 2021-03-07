@@ -2,6 +2,11 @@
 label: 3 Column Layout
 hide_body: true
 fields:
+- name: section_title
+  type: text
+  config:
+    required: false
+  label: Section Title
 - name: column_1
   type: textarea
   default: ''
