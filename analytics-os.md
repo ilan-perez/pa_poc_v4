@@ -8,10 +8,7 @@ hero_button:
   text: Read More
   href: ''
 textline: ''
-services: []
-show_news: false
-partners: []
-show_staff: false
+show_footer_cta: false
 page_sections:
 - template: textarea
   textarea: |-

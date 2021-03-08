@@ -22,11 +22,10 @@ textline: ''
 hero_button:
   text: Learn more
   href: "/about"
-show_news: true
-show_staff: true
-show_footer_cta: false
+show_footer_cta: true
 page_sections:
 - template: 3-column-layout
+  3-column-layout:
   column_1: |-
     ### Analytics & BI Platform
 

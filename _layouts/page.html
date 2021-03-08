@@ -24,11 +24,13 @@ layout: default
             {% include blocks_{{template}}.html %}
             {% when 'posts' %}
             {% include {{template}}.html %}
+            {% when '3_col' %}
+            {% include blocks_{{template}}.html %}
             {% when 'double-cta-button' %}
             {% include blocks_{{template}}.html %}
             {% endcase %}
             {% endfor %}
-            {% include blocks_footer-cta.html.html %}
+            {% include blocks_footer-cta.html %}
         </div>
     </div>
 </div>

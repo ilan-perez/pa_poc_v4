@@ -1,9 +1,10 @@
   {% assign  _count = 0 %}
+
 {% for highlight in block.highlights %}
-{% assign _count = {{ forloop.length }} %}
-<div class="row">
+{% assign _count = {{ block.highlights.length }} %}
+<div class="row ilan">
     <div class="col">
-        <div class="col">{{ _count }}</div>
+        count {{ block.highlights.length }}
     </div>
 </div>
 
