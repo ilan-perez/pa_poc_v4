@@ -2,7 +2,7 @@
 label: Learn More About
 hide_body: true
 fields:
-- name: page_selection
+- name: page_selection_1
   type: select
   default: ''
   config:
@@ -13,4 +13,40 @@ fields:
       section: jekyll-pages
       file: 
       path: 
-  label: Page Selection
+  label: Page Selection 1
+- name: page_selection_2
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: jekyll-pages
+      file: 
+      path: 
+  label: Page Selection 2
+- name: post_selection_1
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: jekyll-posts
+      file: 
+      path: 
+  label: Post Selection 1
+- name: post_selection_2
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: jekyll-posts
+      file: 
+      path: 
+  label: Post Selection 2
