@@ -39,6 +39,7 @@ page_sections:
     ### Pyramid Analytics
 
     Universal platform for tomorrow’s analytic needs.
+  3_col_block: Blah Blah
 - template: double-cta-button
   d_cta:
   - left_button_label: Read More
