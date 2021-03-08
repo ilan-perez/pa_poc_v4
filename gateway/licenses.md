@@ -384,7 +384,7 @@ published: false
 
 
 
-        serviceGet(quoteString, '<%=ConfigurationManager.AppSettings["restServicApiURL"]%>/DeferredKeyGenerator', function (data) {
+        serviceGet(quoteString, 'https://g2services.pyramidanalytics.com/DeferredKeyGenerator', function (data) {
 
             //on success redirect check for machine key
             // alert(data);
@@ -419,7 +419,7 @@ published: false
 
 
 
-        serviceGet(quoteString, '<%=ConfigurationManager.AppSettings["restServicApiURL"]%>/GenerateQuote', function (data) {
+        serviceGet(quoteString, 'https://g2services.pyramidanalytics.com/GenerateQuote', function (data) {
 
             //on success redirect check for machine key
             // alert(data);
@@ -447,7 +447,7 @@ published: false
 
         var quoteString = "customerId=" + CustomerId + "&contactId=" + ContactId + "&isTrial=" + trialFlag;
 
-        serviceGet(quoteString, '<%=ConfigurationManager.AppSettings["restServicApiURL"]%>/QuickGenerateQuote', function (data) {
+        serviceGet(quoteString, 'https://g2services.pyramidanalytics.com/QuickGenerateQuote', function (data) {
 
             window.location.href = "/gateway/buy/machinekey?qid=" + data;
 
@@ -682,7 +682,7 @@ published: false
 
     function Download(id) {
         
-        getZipData(id, "PyramidLicenseKeys", '<%=ConfigurationManager.AppSettings["restServicApiURL"]%>',"/GetKeyZipData", "keyId", "pli");
+        getZipData(id, "PyramidLicenseKeys", 'https://g2services.pyramidanalytics.com',"/GetKeyZipData", "keyId", "pli");
         
 
     }
@@ -720,7 +720,7 @@ published: false
         $(".loaderWrapper").show();
         var quoteString = "customerId=" + customerId;
 
-        serviceGet(quoteString, '<%=ConfigurationManager.AppSettings["restServicApiURL"]%>/GetLicenseInfo', function (data) {
+        serviceGet(quoteString, 'https://g2services.pyramidanalytics.com/GetLicenseInfo', function (data) {
 
             //  alert(data);
             var template = "<div class=\"boxHeadings\">" +
@@ -796,7 +796,7 @@ published: false
         $(".loaderWrapper").show();
         var quoteString = "customerId=" + customerId;
 
-        serviceGet(quoteString, '<%=ConfigurationManager.AppSettings["restServicApiURL"]%>/GetPendingLicenseInfo', function (data) {
+        serviceGet(quoteString, 'https://g2services.pyramidanalytics.com/GetPendingLicenseInfo', function (data) {
 
             //  alert(data);
             for (var i = 0; i < data.ContractItems.length; i++) {
@@ -831,7 +831,7 @@ published: false
         $(".loaderWrapper").show();
         var quoteString = "contractId=" + ContractId + "&title=" + newContractTitle;
 
-        serviceGet(quoteString, '<%=ConfigurationManager.AppSettings["restServicApiURL"]%>/UpdateContractTitle', function (data) {
+        serviceGet(quoteString, 'https://g2services.pyramidanalytics.com/UpdateContractTitle', function (data) {
 
             $(".loaderWrapper").hide();
 
