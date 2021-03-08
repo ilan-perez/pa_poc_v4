@@ -9,129 +9,309 @@ hero_button:
   href: ''
 page_sections:
 - template: textarea
-  textarea: "    <style>\n    \n    \n     \n        \n      .gatewayNew  .butt{\n
-    \   \n    \n            text-align: left;\n            padding: 4px;\n            margin-right:
-    3px;\n            cursor: pointer;\n          line-height: 20px;\n          display:
-    inline-flex;\n    \n        }\n    \n     .gatewayNew   .img {\n            vertical-align:
-    text-bottom;\n        }\n    \n      .gatewayNew  .customer {\n            margin-bottom:
-    10px;\n            border-bottom: 1px solid #b2b2b2;\n            margin-bottom:
-    30px;\n        }\n    \n     .gatewayNew   .prov {\n            background-color:rgb(220,
-    242, 255)\n        }\n    \n     .gatewayNew  .exp {\n            background-color:rgb(255,
-    234, 234)\n        }\n    \n      .gatewayNew  .test {\n            background-color:rgb(215,
-    255, 198)\n        }\n    \n       .gatewayNew  .dev {\n            background-color:rgb(243,
-    211, 255)\n    \n        }\n    \n    \n      .gatewayNew  .def {\n          background-color:
-    rgb(255, 235, 178);\n        }\n    \n    .gatewayNew   .pending {\n           background-color:
-    #f0ffff;\n        }\n    \n    \n    .gatewayNew .licenseOverview .box .boxValue
-    {\n        line-height: normal;\n    }\n    \n    .pLics{ margin-top: 30px;}\n
-    \   \n    .gatewayNew .licenseOverview .box {\n        width: 96px;\n    }\n    \n
-    \   .box .machineName{ text-align: left;width: 100%;display: inline-block;}\n
-    \   .gatewayNew .gatewayContent a{\n        color:#000000;\n        display:block;\n
-    \       width: 180px;   \n        margin: 0px auto 10px auto;\n        text-align:left;\n
-    \   }\n    .gatewayNew .gatewayContent a::before{\n        margin-right:5px;\n
-    \       content:url(\"/jquery-ui-1.12.1.custom/arrow2.png\");\n        float:left;\n
-    \   }\n    \n    .gatewayNew .gatewayContent a.noafter::before{\n        content:none;\n
-    \   }\n    \n    .gatewayNew .gatewayContent .dashHeading{\n        line-height:
-    50px; font-size: 14px; width: 180px; \n        margin: 0px auto 10px auto;\n        height:55px;\n
-    \       border-bottom:1px solid #b1b1b1;\n        \n        \n    }\n    .innerHeading{\n
-    \       text-align:center;\n        padding:0 18%;\n    }\n        .innerHeading
-    span {\n            display:inline-block;\n            height:50px;\n            float:left;\n
-    \       }\n        .innerHeading img{\n            display:inline-block;\n            float:left;\n
-    \       }\n    </style>\n    \n    \n     <script>\n          var currentUrl =
-    (location.pathname + location.search).substr(1);\n          LoggedInCheck(readCookie('CustomerId'),
-    readCookie('ContactId'), currentUrl, \"/login/\");\n     </script>\n    \n    <div
-    class=\"gatewayNew\">\n        <div class=\"\" style=\"float: left; width: 100%\">\n
-    \           <div class=\"gatewayMenu\">\n                <ul>\n                 \n
-    \                   <li class=\"menuOn\"><a href=\"/gateway/overview\">Dashboard</a></li>\n
-    \                 <li ><a href=\"/gateway/licenses\">Licenses</a></li>\n                    <li
-    class=\"myorders\"><a href=\"/gateway/orders\">Open Orders</a></li>\n                    <li
-    ><a href=\"/gateway/profile\">Profile</a></li>\n                    <li ><a href=\"/gateway/buy\">Buy</a></li>\n
-    \                   <li><a href=\"/gateway/application-downloads\">Downloads</a></li>\n
-    \                   <li><a href=\"/gateway/kubernetes\">Kubernetes</a></li>\n
-    \                   <li><a href=\"/logout\">Logout</a></li>\n    \n    \n                </ul>\n
-    \   \n    \n    \n            </div>\n            <div class=\"gatewayContent\">\n
-    \               <div class=\"licenseOverview\">\n                 \n                    \n
-    \                   \n                  <div class=\"sf_cols\">\n        <div
-    class=\"sf_colsOut sf_4cols_1_25\">\n            <div id=\"cphMain_C031_Col00\"
-    class=\"sf_colsIn sf_4cols_1in_25\">\n                            <div class=\"dashHeading\"><div
-    class=\"innerHeading\"><img src=\"/jquery-ui-1.12.1.custom/buy.png\" /> <span
-    style=\"\">Buy</span></div></div>\n                <div style=\"clear:both\"></div>\n
-    \                           <a href=\"/gateway/orders\" class=\" \" >I have an
-    order</a>\n                            <a href=\"/gateway/buy/license-wizard\"
-    class=\" \" >License Upgrade</a>\n                \n                            <a
-    href=\"/gateway/licenses\" class=\" \" >License Renewal</a>\n                \n
-    \               \n            </div>\n        </div>\n        <div class=\"sf_colsOut
-    sf_4cols_2_25\">\n            <div id=\"cphMain_C031_Col01\" class=\"sf_colsIn
-    sf_4cols_2in_25\">  \n                 <div class=\"dashHeading\"><div class=\"innerHeading\"><img
-    src=\"/jquery-ui-1.12.1.custom/contact.png\"/> <span style=\"\">Contact</span>
-    </div></div>\n                <div style=\"clear:both\"></div>\n                <a
-    href=\"https://support.pyramidanalytics.com/hc/en-us\" class=\" \" target=\"_blank\">
-    Contact Support</a>\n               <a href=\"/free-trial/request-demo\" class=\"\"
-    style=\"\">Schedule Demo</a>\n                \n                <a href=\"/gateway/edit-profile\"
-    class=\" \"  style=\"width: 180px;  margin: 0px auto 20px auto\">Profile Update</a>\n
-    \           </div>\n        </div>\n        <div class=\"sf_colsOut sf_4cols_3_25\">\n
-    \           <div id=\"cphMain_C031_Col02\" class=\"sf_colsIn sf_4cols_3in_25\">\n
-    \               <div class=\"dashHeading\"><div class=\"innerHeading\"><img src=\"/jquery-ui-1.12.1.custom/help.png\"
-    /> <span style=\"\">Help</span> </div></div>\n                 <div style=\"clear:both\"></div>\n
-    \                   <a href=\"https://help.pyramidanalytics.com/Content/Root/general/Welcome.htm\"
-    class=\" \" target=\"_blank\" >Online help</a>\n    \n                <a href=\"https://help.pyramidanalytics.com/Content/Root/Guides/installation/Installer%20Overview.htm\"
-    class=\" \" target=\"_blank\">Installation Guide</a>\n                \n                \n
-    \               <a href=\"#\" class=\" \" target=\"_blank\"  id=\"forumLink\"
-    >Community Forum Login</a>\n                \n                \n                \n
-    \           </div>\n        </div>\n        <div class=\"sf_colsOut sf_4cols_4_25\">\n
-    \           <div id=\"cphMain_C031_Col03\" class=\"sf_colsIn sf_4cols_4in_25\">\n
-    \                          <div class=\"dashHeading\" style=\" margin-bottom:0;\"><div
-    class=\"innerHeading\"><img src=\"/jquery-ui-1.12.1.custom/downloads.png\" style=\"display:inline;\"/>
-    <span style=\"\">Download</span> </div></div>\n                <div style=\"clear:both\"></div>\n
-    \               \n                        \n                \n                <a
-    href=\"/gateway/application-downloads\" class=\"\"  style=\"width: 180px;  padding:
-    12px 5px 0px 5px; margin: 0px auto 0px auto;  \">Latest Software</a>\n         \n
-    \                           <a id=\"\" href=\"https://play.google.com/store/apps/details?id=pyramid.analytics\"
-    \ class=\"\" style=\"    padding: 10px 5px 10px 5px;\"><img style=\"width:16px;
-    float:left;\" src=\"https://www.pyramidanalytics.com/images/default-source/pyramid-2020/google77bf9b4e7dd26215b1eeff00002b9892.svg?sfvrsn=cc6df9c9_2\"
-    alt=\"google\"/> <span style=\" display: inline-block;\n        height: 16px;
-    float: left; line-height:16px; margin-left:10px; \">Google Play</span></a>\n                     <a
-    id=\"\" href=\"https://itunes.apple.com/app/id1355475947\"  class=\"\" style=\"
-    \    padding: 10px 5px 10px 5px;\"><img style=\"width:16px; float:left;\" src=\"https://www.pyramidanalytics.com/images/default-source/pyramid-2020/apple61bf9b4e7dd26215b1eeff00002b9892.svg?sfvrsn=cf6df9c9_2\"
-    alt=\"apple\"/> <span style=\" display: inline-block;\n        height: 16px; float:
-    left; line-height:16px; margin-left:10px; \">Apple Store</span></a>\n           <a
-    id=\"\" href=\"/gateway/kubernetes\"  class=\"\" style=\"     padding: 10px 5px
-    0px 5px;\"><img  style=\"width:16px; float:left;\" src=\"https://www.pyramidanalytics.com/images/default-source/pyramid-2020/kubernetes.svg?sfvrsn=cd6df9c9_2\"
-    alt=\"kubernetes\"/> <span style=\" display: inline-block;\n        height: 16px;
-    float: left; line-height:16px; margin-left:10px; \">Kubernetes Setup</span></a>\n
-    \          \n                \n            </div>\n        </div>\n    </div>\n
-    \                 \n    \n                </div>\n    \n            </div>\n    \n
-    \       </div>\n        <div class=\"spacer\" style=\"clear: both;\"></div>\n
-    \   </div>\n    \n    \n    \n    <div id=\"dialog-message\" title=\"Load your
-    order\">\n       <div style=\"margin-bottom: 10px; font-size: 14px; \">Please
-    enter the Order # you received</div>\n       \n    \t\t\t  <div style=\"margin-bottom:
-    10px; font-size: 14px; \">Order Id</div>\n    \t\t\t\t    <input id=\"quoteid\"
-    class=\"good_input\" style=\"background: #f2f2f2; color: #626262;\" name=\"\"
-    type=\"text\" placeholder=\"00000000-0000-0000-0000-000000000000\" />\n    </div>\n
-    \   \n    \n    <script type=\"text/javascript\">\n    \n    \n        \n    \n
-    \   \n    \n    \n       \n    \n        function getForumLink() {\n            var
-    customerId = readCookie('CustomerId');\n            var contactId = readCookie('ContactId');\n
-    \   \n            var quoteString = \"customerId=\" + customerId + \"&contactId=\"
-    + contactId;\n    \n            serviceGet(quoteString, '<%=ConfigurationManager.AppSettings[\"restServicApiURL\"]%>/ForumbeeSsoLink',
-    function (data) {\n              //  alert(data);\n                $(\"#forumLink\").attr('href',data);\n
-    \               //  alert(data);\n            });\n        }\n    \n        $(document).ready(function
-    () {\n    \n            getForumLink();\n    \n            var ut = readCookie(\"userType\");\n
-    \           \n    \n            $(\"#loadOrder\").button().on(\"click\", function
-    () {\n    \n                $(\"#dialog-message\").dialog(\"open\");\n    \n            });\n
-    \   \n            $(\"#dialog-message\").dialog({\n                resizable:
-    false,\n                height: \"auto\",\n                autoOpen: false,\n
-    \               modal: true,\n                width: 450,\n                //
-    \ dialogClass: \"no-close\",\n                overlay:\n                    {\n
-    \                       opacity: 0.5,\n                        background: \"black\"\n
-    \                   },\n                open: function () {\n    \n                    //
-    $(\".info\").html($(this).data('downloadId'));\n                },\n                buttons:
-    [\n                    {\n                        text: \"Checkout\",\n                        \"class\":
-    \"btn btn_orange\",\n                        click: function () {\n                            window.location
-    = \"/gateway/buy?eqid=\" + $(\"#quoteid\").val();\n    \n    \n    \n    \n    \n
-    \                       }\n                    },\n    \n                ]\n    \n
-    \   \n            });\n         \n            \n    \n            $(\"#getQuote\").click(function
-    () {\n                window.location = \"/gateway/buy?eqid=\"+$(\"#quoteid\").val();\n
-    \           });\n    \n            \n      \n    \n    \n        });\n    \n    \n
-    \   </script>\n    \n    \n    \n    \n    "
-published: false
+  textarea: "    "
 
 ---
+<style>
+
+
+ 
+    
+  .gatewayNew  .butt{
+
+
+        text-align: left;
+        padding: 4px;
+        margin-right: 3px;
+        cursor: pointer;
+      line-height: 20px;
+      display: inline-flex;
+
+    }
+
+ .gatewayNew   .img {
+        vertical-align: text-bottom;
+    }
+
+  .gatewayNew  .customer {
+        margin-bottom: 10px;
+        border-bottom: 1px solid #b2b2b2;
+        margin-bottom: 30px;
+    }
+
+ .gatewayNew   .prov {
+        background-color:rgb(220, 242, 255)
+    }
+
+ .gatewayNew  .exp {
+        background-color:rgb(255, 234, 234)
+    }
+
+  .gatewayNew  .test {
+        background-color:rgb(215, 255, 198)
+    }
+
+   .gatewayNew  .dev {
+        background-color:rgb(243, 211, 255)
+
+    }
+
+
+  .gatewayNew  .def {
+      background-color: rgb(255, 235, 178);
+    }
+
+.gatewayNew   .pending {
+       background-color: #f0ffff;
+    }
+
+
+.gatewayNew .licenseOverview .box .boxValue {
+    line-height: normal;
+}
+
+.pLics{ margin-top: 30px;}
+
+.gatewayNew .licenseOverview .box {
+    width: 96px;
+}
+
+.box .machineName{ text-align: left;width: 100%;display: inline-block;}
+.gatewayNew .gatewayContent a{
+    color:#000000;
+    display:block;
+    width: 180px;   
+    margin: 0px auto 10px auto;
+    text-align:left;
+}
+.gatewayNew .gatewayContent a::before{
+    margin-right:5px;
+    content:url("/jquery-ui-1.12.1.custom/arrow2.png");
+    float:left;
+}
+
+.gatewayNew .gatewayContent a.noafter::before{
+    content:none;
+}
+
+.gatewayNew .gatewayContent .dashHeading{
+    line-height: 50px; font-size: 14px; width: 180px; 
+    margin: 0px auto 10px auto;
+    height:55px;
+    border-bottom:1px solid #b1b1b1;
+    
+    
+}
+.innerHeading{
+    text-align:center;
+    padding:0 18%;
+}
+    .innerHeading span {
+        display:inline-block;
+        height:50px;
+        float:left;
+    }
+    .innerHeading img{
+        display:inline-block;
+        float:left;
+    }
+</style>
+
+
+ <script>
+      var currentUrl = (location.pathname + location.search).substr(1);
+      LoggedInCheck(readCookie('CustomerId'), readCookie('ContactId'), currentUrl, "/login/");
+ </script>
+
+<div class="gatewayNew">
+    <div class="" style="float: left; width: 100%">
+        <div class="gatewayMenu">
+            <ul>
+             
+                <li class="menuOn"><a href="/gateway/overview">Dashboard</a></li>
+              <li ><a href="/gateway/licenses">Licenses</a></li>
+                <li class="myorders"><a href="/gateway/orders">Open Orders</a></li>
+                <li ><a href="/gateway/profile">Profile</a></li>
+                <li ><a href="/gateway/buy">Buy</a></li>
+                <li><a href="/gateway/application-downloads">Downloads</a></li>
+                <li><a href="/gateway/kubernetes">Kubernetes</a></li>
+                <li><a href="/logout">Logout</a></li>
+
+
+            </ul>
+
+
+
+        </div>
+        <div class="gatewayContent">
+            <div class="licenseOverview">
+             
+                
+                
+              <div class="sf_cols">
+    <div class="sf_colsOut sf_4cols_1_25">
+        <div id="cphMain_C031_Col00" class="sf_colsIn sf_4cols_1in_25">
+                        <div class="dashHeading"><div class="innerHeading"><img src="/jquery-ui-1.12.1.custom/buy.png" /> <span style="">Buy</span></div></div>
+            <div style="clear:both"></div>
+                        <a href="/gateway/orders" class=" " >I have an order</a>
+                        <a href="/gateway/buy/license-wizard" class=" " >License Upgrade</a>
+            
+                        <a href="/gateway/licenses" class=" " >License Renewal</a>
+            
+            
+        </div>
+    </div>
+    <div class="sf_colsOut sf_4cols_2_25">
+        <div id="cphMain_C031_Col01" class="sf_colsIn sf_4cols_2in_25">  
+             <div class="dashHeading"><div class="innerHeading"><img src="/jquery-ui-1.12.1.custom/contact.png"/> <span style="">Contact</span> </div></div>
+            <div style="clear:both"></div>
+            <a href="https://support.pyramidanalytics.com/hc/en-us" class=" " target="_blank"> Contact Support</a>
+           <a href="/free-trial/request-demo" class="" style="">Schedule Demo</a>
+            
+            <a href="/gateway/edit-profile" class=" "  style="width: 180px;  margin: 0px auto 20px auto">Profile Update</a>
+        </div>
+    </div>
+    <div class="sf_colsOut sf_4cols_3_25">
+        <div id="cphMain_C031_Col02" class="sf_colsIn sf_4cols_3in_25">
+            <div class="dashHeading"><div class="innerHeading"><img src="/jquery-ui-1.12.1.custom/help.png" /> <span style="">Help</span> </div></div>
+             <div style="clear:both"></div>
+                <a href="https://help.pyramidanalytics.com/Content/Root/general/Welcome.htm" class=" " target="_blank" >Online help</a>
+
+            <a href="https://help.pyramidanalytics.com/Content/Root/Guides/installation/Installer%20Overview.htm" class=" " target="_blank">Installation Guide</a>
+            
+            
+            <a href="#" class=" " target="_blank"  id="forumLink" >Community Forum Login</a>
+            
+            
+            
+        </div>
+    </div>
+    <div class="sf_colsOut sf_4cols_4_25">
+        <div id="cphMain_C031_Col03" class="sf_colsIn sf_4cols_4in_25">
+                       <div class="dashHeading" style=" margin-bottom:0;"><div class="innerHeading"><img src="/jquery-ui-1.12.1.custom/downloads.png" style="display:inline;"/> <span style="">Download</span> </div></div>
+            <div style="clear:both"></div>
+            
+                    
+            
+            <a href="/gateway/application-downloads" class=""  style="width: 180px;  padding: 12px 5px 0px 5px; margin: 0px auto 0px auto;  ">Latest Software</a>
+     
+                        <a id="" href="https://play.google.com/store/apps/details?id=pyramid.analytics"  class="" style="    padding: 10px 5px 10px 5px;"><img style="width:16px; float:left;" src="https://www.pyramidanalytics.com/images/default-source/pyramid-2020/google77bf9b4e7dd26215b1eeff00002b9892.svg?sfvrsn=cc6df9c9_2" alt="google"/> <span style=" display: inline-block;
+    height: 16px; float: left; line-height:16px; margin-left:10px; ">Google Play</span></a>
+                 <a id="" href="https://itunes.apple.com/app/id1355475947"  class="" style="     padding: 10px 5px 10px 5px;"><img style="width:16px; float:left;" src="https://www.pyramidanalytics.com/images/default-source/pyramid-2020/apple61bf9b4e7dd26215b1eeff00002b9892.svg?sfvrsn=cf6df9c9_2" alt="apple"/> <span style=" display: inline-block;
+    height: 16px; float: left; line-height:16px; margin-left:10px; ">Apple Store</span></a>
+       <a id="" href="/gateway/kubernetes"  class="" style="     padding: 10px 5px 0px 5px;"><img  style="width:16px; float:left;" src="https://www.pyramidanalytics.com/images/default-source/pyramid-2020/kubernetes.svg?sfvrsn=cd6df9c9_2" alt="kubernetes"/> <span style=" display: inline-block;
+    height: 16px; float: left; line-height:16px; margin-left:10px; ">Kubernetes Setup</span></a>
+       
+            
+        </div>
+    </div>
+</div>
+              
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="spacer" style="clear: both;"></div>
+</div>
+
+
+
+<div id="dialog-message" title="Load your order">
+   <div style="margin-bottom: 10px; font-size: 14px; ">Please enter the Order # you received</div>
+   
+			  <div style="margin-bottom: 10px; font-size: 14px; ">Order Id</div>
+				    <input id="quoteid" class="good_input" style="background: #f2f2f2; color: #626262;" name="" type="text" placeholder="00000000-0000-0000-0000-000000000000" />
+</div>
+
+
+<script type="text/javascript">
+
+
+    
+
+
+
+
+   
+
+    function getForumLink() {
+        var customerId = readCookie('CustomerId');
+        var contactId = readCookie('ContactId');
+
+        var quoteString = "customerId=" + customerId + "&contactId=" + contactId;
+
+        serviceGet(quoteString, '<%=ConfigurationManager.AppSettings["restServicApiURL"]%>/ForumbeeSsoLink', function (data) {
+          //  alert(data);
+            $("#forumLink").attr('href',data);
+            //  alert(data);
+        });
+    }
+
+    $(document).ready(function () {
+
+        getForumLink();
+
+        var ut = readCookie("userType");
+        
+
+        $("#loadOrder").button().on("click", function () {
+
+            $("#dialog-message").dialog("open");
+
+        });
+
+        $("#dialog-message").dialog({
+            resizable: false,
+            height: "auto",
+            autoOpen: false,
+            modal: true,
+            width: 450,
+            //  dialogClass: "no-close",
+            overlay:
+                {
+                    opacity: 0.5,
+                    background: "black"
+                },
+            open: function () {
+
+                // $(".info").html($(this).data('downloadId'));
+            },
+            buttons: [
+                {
+                    text: "Checkout",
+                    "class": "btn btn_orange",
+                    click: function () {
+                        window.location = "/gateway/buy?eqid=" + $("#quoteid").val();
+
+
+
+
+
+                    }
+                },
+
+            ]
+
+
+        });
+     
+        
+
+        $("#getQuote").click(function () {
+            window.location = "/gateway/buy?eqid="+$("#quoteid").val();
+        });
+
+        
+  
+
+
+    });
+
+
+</script>
+
+
+
+
