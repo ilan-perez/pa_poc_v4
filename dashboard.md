@@ -7,9 +7,7 @@ banner_image: ''
 hero_button:
   text: ''
   href: ''
-page_sections:
-- template: textarea
-  textarea: "    "
+page_sections: []
 
 ---
 <style>
