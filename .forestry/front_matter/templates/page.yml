@@ -55,5 +55,6 @@ fields:
   label: Show Footer CTA
   default: true
 pages:
+- dashboard.md
 - free-trial.md
 - index.md
