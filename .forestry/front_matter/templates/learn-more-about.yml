@@ -1,4 +1,16 @@
 ---
 label: Learn More About
 hide_body: true
-fields: []
+fields:
+- name: page_selection
+  type: select
+  default: ''
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: jekyll-pages
+      file: 
+      path: 
+  label: Page Selection
