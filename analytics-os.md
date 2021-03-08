@@ -104,6 +104,10 @@ page_sections:
       * Dynamic reporting with secure access
     highlight_image: "/uploads/2021/03/07/publish.jpg"
     url: "/"
+- template: learn-more-about
+  page_selection_2: []
+  post_selection_1: []
+  post_selection_2: []
 description: blah blah blah
 publish_date: '2017-12-01T04:00:00.000+00:00'
 menu:
