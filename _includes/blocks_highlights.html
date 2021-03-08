@@ -1,13 +1,3 @@
-  {% assign  _count = 0 %}
-
-{% for highlight in block.highlights %}
-{% assign _count = {{ block.highlights.length }} %}
-<div class="row ilan">
-    <div class="col">
-        count {{ block.highlights.length }}
-    </div>
-</div>
-
 <div class="row">
     <div class="col">
         <hr />
@@ -15,32 +5,19 @@
 </div>
 <div class="row">
 
-    {% if _count | modulo:2 %}
+
     <div class="col-6">
-        <div class="tagline">{{highlight.tag}}</div>
-        <h4>{{highlight.title}}</h4>
-        {{ highlight.description | markdownify}}
+        <div class="tagline">{{block.highlights[0].tag}}</div>
+        <h4>{{block.highlights[0].headline}}</h4>
+        {{ block.highlights[0].description | markdownify}}
         {% if highlight.url %}
-        <a href="{{highlight.url}}" class="pure-button pure-button-primary">Click Here</a>
+        <a href="{{block.highlights[0].url}}" class="pure-button pure-button-primary">Click Here</a>
         {% endif %}
     </div>
     <div class="col-6">
-        <a href="{{highlight.url}}"><img src="{{highlight.highlight_image}}" /></a>
+        <a href="{{block.highlights[0].url}}"><img src="{{block.highlights[0].highlight_image}}" /></a>
     </div>
 
-    {% else %}
-    <div class="col-6">
-        <div class="tagline">{{highlight.tag}}</div>
-        <h4>{{highlight.title}}</h4>
-        {{ highlight.description | markdownify}}
-        {% if highlight.url %}
-        <a href="{{highlight.url}}" class="pure-button pure-button-primary">Click Here</a>
-        {% endif %}
-    </div>
-    <div class="col-6">
-        <a href="{{highlight.url}}"><img src="{{highlight.highlight_image}}" /></a>
-    </div>
-    {% endif %}
 
 </div>
-    {% endfor %}
+
