@@ -57,4 +57,5 @@ fields:
 pages:
 - dashboard.md
 - free-trial.md
+- gateway/licenses.md
 - index.md
