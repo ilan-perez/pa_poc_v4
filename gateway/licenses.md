@@ -11,9 +11,6 @@ page_sections: []
 published: false
 
 ---
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="DisplayCustomerLicenses.ascx.cs" Inherits="SitefinityWebApp.UserControls.Gateway.DisplayCustomerLicenses" %>
-
-
 <style>
 
 
@@ -939,7 +936,3 @@ published: false
 
 
 </script>
-
-
-
-
