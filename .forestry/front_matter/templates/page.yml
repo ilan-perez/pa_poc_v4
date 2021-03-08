@@ -49,6 +49,10 @@ fields:
   config:
     min: 
     max: 
+- name: show_footer_cta
+  type: boolean
+  label: Show Footer CTA
+  default: true
 pages:
 - free-trial.md
 - index.md
