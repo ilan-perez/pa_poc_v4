@@ -106,8 +106,8 @@ page_sections:
     url: "/"
 - template: learn-more-about
   page_selection_2: []
-  post_selection_1: []
-  post_selection_2: []
+  post_selection_1: _posts/en/bi-blog/2017-08-01-welcome.md
+  post_selection_2: _posts/de/bi-blog/2017-02-12-modern.md
 description: blah blah blah
 publish_date: '2017-12-01T04:00:00.000+00:00'
 menu:
