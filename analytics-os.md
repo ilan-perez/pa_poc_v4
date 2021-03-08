@@ -8,7 +8,7 @@ hero_button:
   text: Read More
   href: ''
 textline: ''
-show_footer_cta: true
+show_footer_cta: false
 page_sections:
 - template: textarea
   textarea: |-
